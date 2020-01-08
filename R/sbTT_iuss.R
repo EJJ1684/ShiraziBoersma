@@ -1,7 +1,10 @@
 sbTT_iuss <-
 function(add=F,cols="black",size=1){
+  data("iuss_lines")
   lines_out = iuss_lines
+  data("iuss_x")
   x = iuss_x
+  data("iuss_y")
   y = iuss_y
   
   if(!add){plot(NA,cex=0.0, xlim=c(-4,0), ylim=c(1,10),ylab="Geometric standard deviation", xlab="Geometric mean diameter (mm)", xaxt="n",xaxs="i")
