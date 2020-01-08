@@ -14,7 +14,5 @@ Just do it
 }
 \author{
 \packageAuthor{Edward Jones}
-
-Maintainer: Edward Jones
 }
 
