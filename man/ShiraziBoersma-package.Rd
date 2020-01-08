@@ -1,32 +1,20 @@
-\name{ShiraziBoersma-package}
-\alias{ShiraziBoersma-package}
+\name{ShiraziBoersma}
 \alias{ShiraziBoersma}
 \docType{package}
-\title{
-\packageTitle{Title of the package}
-}
+\title{Shirazi and Boersma TT}
 \description{
-\packageDescription{ShiraziBoersma}
+  Shirazi and Boersma texture triangle
 }
 \details{
 
 The DESCRIPTION file:
 \packageDESCRIPTION{ShiraziBoersma}
 \packageIndices{ShiraziBoersma}
-~~ An overview of how to use the package, including the most important functions ~~
+Just do it
 }
 \author{
-\packageAuthor{ShiraziBoersma}
+\packageAuthor{Edward Jones}
 
-Maintainer: \packageMaintainer{ShiraziBoersma}
+Maintainer: Edward Jones
 }
-\references{
-~~ Literature or other references for background information ~~
-}
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R documentation directory ~~
-\keyword{ package }
-\seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
-}
-\examples{}
+
