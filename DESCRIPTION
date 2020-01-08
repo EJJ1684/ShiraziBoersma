@@ -7,4 +7,4 @@ Author: Edward Jones
 Maintainer: Joe Developer <Joe.Developer@some.domain.net>
 Description: Shirazi and Boersma texture triangle and geometric mean diameter and standard deviation calculation.
 License: What license is it under?
-Imports: soiltexture
+Imports: soiltexture, stringr
