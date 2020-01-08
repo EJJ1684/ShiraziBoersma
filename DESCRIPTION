@@ -4,7 +4,7 @@ Title: Shirazi and Boersma texture triangle
 Version: 1.0
 Date: 2020-01-08
 Author: Edward Jones
-Maintainer: Who to complain to <yourfault@somewhere.net>
+Maintainer: Edward Jones
 Description: Shirazi and Boersma texture triangle and geometric mean diameter and standard deviation calculation.
 License: What license is it under?
 Imports: soiltexture
