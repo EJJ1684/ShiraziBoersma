@@ -2,9 +2,7 @@
 \alias{ShiraziBoersma-package}
 \alias{ShiraziBoersma}
 \docType{package}
-\title{
-\packageTitle{ShiraziBoersma}
-}
+\title{ShiraziBoersma}
 \description{
 \packageDescription{ShiraziBoersma}
 }
