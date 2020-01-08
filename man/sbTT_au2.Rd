@@ -1,5 +1,5 @@
-\name{sbTT_aus}
-\alias{sbTT_aus}
+\name{sbTT_au2}
+\alias{sbTT_au2}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 Australian texture triangle represented as mean geometric diameter and standard deviation
