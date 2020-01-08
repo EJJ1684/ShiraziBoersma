@@ -1,7 +1,10 @@
 sbTT_aus <-
 function(add=F,cols="black",size=1){
+  data("au2_lines")
   lines_out = au2_lines
+  data("au2_x")
   x = au2_x
+  data("au2_y")
   y = au2_y
   
   if(!add){plot(NA,cex=0.0, xlim=c(-4,0), ylim=c(1,10),ylab="Geometric standard deviation", xlab="Geometric mean diameter (mm)", xaxt="n",xaxs="i")
