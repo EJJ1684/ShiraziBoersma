@@ -1,6 +1,6 @@
 ## ShiraziBoersmaTT
 
-devtools::install_github("EJJ1684/ShiraziBoersma",auth_token="c279eb9ff17480d2671d4e8761944faaeb314f56")
+devtools::install_github("EJJ1684/ShiraziBoersma",auth_token="3fc46050a3aaada187cb2ddd550b1f0f272561b8")
 
 # Demo
 
