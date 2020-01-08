@@ -1,7 +1,10 @@
 sbTT_usda <-
 function(add=F,cols="black",size=1){
+  data("usda_lines")
   lines_out = usda_lines
+  data("usda_x")
   x = usda_x
+  data("usda_y")
   y = usda_y
   
   if(!add){plot(NA,cex=0.0, xlim=c(-4,0), ylim=c(1,13),ylab="Geometric standard deviation", xlab="Geometric mean diameter (mm)", xaxt="n",xaxs="i")
