@@ -1,4 +1,4 @@
-sbTT_aus <-
+sbTT_au2 <-
 function(add=F,cols="black",size=1){
   data("au2_lines")
   lines_out = au2_lines
