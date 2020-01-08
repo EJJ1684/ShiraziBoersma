@@ -13,6 +13,6 @@ The DESCRIPTION file:
 Just do it
 }
 \author{
-\packageAuthor{Edward Jones}
+\packageAuthor{ShiraziBoersma}
 }
 
