@@ -1,8 +1,10 @@
-## ShiraziBoersmaTT
+# ShiraziBoersma
+This package can:  
+ * calculate geometric mean diameter and standard deviation from particle size analaysis based on Shirazi et al. (1988).  
+ * plot Shirazi and Boersma (1984) style texture triangles.
 
-devtools::install_github("EJJ1684/ShiraziBoersma",auth_token="3fc46050a3aaada187cb2ddd550b1f0f272561b8")
-
-# Demo
+## Demo
+devtools::install_github("EJJ1684/ShiraziBoersma",auth_token="3fc46050a3aaada187cb2ddd550b1f0f272561b8")  
 
 require(ShiraziBoersma)  
 sbTT_usda(add=F,cols="red",size=1)  
