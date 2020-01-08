@@ -27,9 +27,4 @@ Maintainer: \packageMaintainer{ShiraziBoersma}
 ~~ Optional links to other man pages, e.g. ~~
 ~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
 }
-\examples{
-##calculate new value for 
-res=shb_calc(psa = c(20,20,60),lim = c(0.002,0.05,2),plt = T,seg_dat = F)
-sbTT_usda(add=F,cols="black",size=1)
-points(log10(res[1]),res[2], pch=16, col="red")
-}
+\examples{}
