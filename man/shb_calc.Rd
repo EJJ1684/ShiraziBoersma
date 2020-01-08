@@ -2,7 +2,7 @@
 \alias{shb_calc}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+Calculate mean geometric diameter and standard deviation
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
