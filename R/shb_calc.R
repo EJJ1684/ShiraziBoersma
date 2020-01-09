@@ -1,5 +1,5 @@
 shb_calc <-
-function(psa,sys,plt,seg_dat){
+function(psa,sys="usda",plt_par=T,dat_par=F){
   if(sys%in%c("au2","iuss")){
    s0 = 0.00002
    lim = c(0.002,0.02,2)
@@ -31,13 +31,13 @@ function(psa,sys,plt,seg_dat){
   m2=c()
 
   ##run it
-  if(plt){
+  if(plt_par){
     plot(NA,xlim=c(log10(sizes[1]),log10(10)),ylim=c(0,12),yaxs="i",xaxs="i", ylab="Theoretical lognormal prob.", xlab="Grain size (mm)", xaxt="n")
     axis(1,at= -5:1, labels=c("0.00001","0.0001","0.001","0.01","0.1","1.0","10.0"))
     abline(v=log10(sizes[2:(length(sizes))]),lty=2, col="grey")
   }
 
-  if(seg_dat){cat("\nSegment d_g\tSeg. sigma_g")} ##d_g and sigma of segment
+  if(dat_par){cat("\nSegment d_g\tSeg. sigma_g")} ##d_g and sigma of segment
   for(i in 1:length(psa)){ #i=1
     ##Normal deviates
     x1 = log10(sizes[i])
@@ -51,10 +51,10 @@ function(psa,sys,plt,seg_dat){
 
     if(!is.nan(a)&!is.infinite(a)){
 
-      if(seg_dat){cat("\n",10^a,"\t",10^b,"\n")} ##d_g and sigma of segment
+      if(dat_par){cat("\n",10^a,"\t",10^b,"\n")} ##d_g and sigma of segment
 
       ##plot fitted distributions for each segment
-      if(plt){
+      if(plt_par){
         vals=seq(log10(sizes[i]),log10(sizes[i+1]),length.out =1000)
         nums=seq(log10(sizes[1]),log10(100),length.out =1000)
         lines(nums,d_lognorm(10^nums)*10, lty=2) ##dodgy *10 constant, I cannot produce theier results without it
