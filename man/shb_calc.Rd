@@ -1,4 +1,5 @@
 \name{shb_calc}
+\alias{shb_calc}
 \title{
 Calculate mean geometric diameter and standard deviation
 }
