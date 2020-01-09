@@ -1,4 +1,4 @@
-shb_calc <-
+sbh_calc <-
 function(psa,sys="usda",plt_par=T,dat_par=F){
   if(sys%in%c("au2","iuss")){
    s0 = 0.00002
