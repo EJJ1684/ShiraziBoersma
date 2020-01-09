@@ -1,5 +1,5 @@
-\name{shb_calc}
-\alias{shb_calc}
+\name{sbh_calc}
+\alias{sbh_calc}
 \title{
 Calculate mean geometric diameter and standard deviation
 }
@@ -7,7 +7,7 @@ Calculate mean geometric diameter and standard deviation
 Calculate mean geometric diameter and standard deviation from particle size analysis data based on Shirazi et al. (1988).
 }
 \usage{
-shb_calc(psa, sys = "usda", plt = T, seg_dat = F)
+sbh_calc(psa, sys = "usda", plt = T, seg_dat = F)
 }
 \arguments{
   \item{psa}{
@@ -26,7 +26,7 @@ shb_calc(psa, sys = "usda", plt = T, seg_dat = F)
 }
 \examples{
   ## calculate d_g and s_g
-  res=shb_calc(psa = c(20,30,50), sys = "usda", plt_par = T, dat_par = F)
+  res=sbh_calc(psa = c(20,30,50), sys = "usda", plt_par = T, dat_par = F)
   
   ## plot USDA TT
   sbTT_usda(add=F,cols="black",size=1)
