@@ -4,7 +4,7 @@ This package can:
  * plot Shirazi and Boersma (1984) style texture triangles for USDA, IUSS and Australian classification systems based on vertices provided in the soiltexture package, as seen in Stockmann et al. (2018).
 
 ## Demo
-devtools::install_github("EJJ1684/ShiraziBoersma",auth_token="3fc46050a3aaada187cb2ddd550b1f0f272561b8")  
+devtools::install_github("EJJ1684/ShiraziBoersma")  
 
 require(ShiraziBoersma)  
 
