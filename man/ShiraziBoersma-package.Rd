@@ -3,7 +3,7 @@
 \docType{package}
 \title{Shirazi and Boersma TT}
 \description{
-  Shirazi and Boersma texture triangle
+  Shirazi and Boersma texture triangle and calculation of mean geometric diameter and standard deviation.
 }
 \details{
 
