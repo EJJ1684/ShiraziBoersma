@@ -8,7 +8,11 @@ devtools::install_github("EJJ1684/ShiraziBoersma",auth_token="3fc46050a3aaada187
 
 require(ShiraziBoersma)  
 
-res=shb_calc(psa = c(20,20,60), sys = "usda", plt = T, seg_dat = F)  
+sbTT_usda()  
 
+sbTT_au2(cols="red")  
+sbTT_iuss(add=T,cols="blue")  
+
+res=shb_calc(psa = c(20,20,60), sys = "usda", plt = T, seg_dat = F)  
 sbTT_usda(add=F,cols="black",size=1)  
 points(log10(res[1]),res[2], pch=16, col="red")  
