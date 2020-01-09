@@ -4,17 +4,17 @@
 Calculate mean geometric diameter and standard deviation
 }
 \description{
-Calculate mean geometric diameter and standard deviation
+Calculate mean geometric diameter and standard deviation from particle size analysis data based on Shirazi et al. (1988).
 }
 \usage{
-shb_calc(psa, sys, plt, seg_dat)
+shb_calc(psa, sys = "usda", plt = T, seg_dat = F)
 }
 \arguments{
   \item{psa}{
     Numeric vector - mass percentages of clay, silt and sand. E.g. c(20,30,50).
 }
   \item{sys}{
-    Character string - classification system used. Options'au2', 'iuss', 'usda'.  
+    Character string - classification system used. Options: "au2", "iuss", "usda".  
 }
   \item{plt_par}{
     Single boolean - should the parent distributions be plotted?
