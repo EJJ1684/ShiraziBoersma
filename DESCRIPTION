@@ -7,8 +7,9 @@ Authors@R: as.person(
     "Edward Jones <edward.jones@sydney.edu.au> [aut,cre]"
     )
 Description: Calculation of geometric mean diameter and standard deviation 
-    based on particle size analaysis data and plot Shirazi and Boersma texture 
-    triangle.
+    based on particle size analaysis data based on Shirazi et al. (1988) 
+    and plot geometric mean diameter and standard deviation texture triangles 
+    based on Shirazi and Boersma (1984).
 License: What license is it under?
 Imports:
     soiltexture,
