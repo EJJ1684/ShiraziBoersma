@@ -1,6 +1,6 @@
 sbTT_au2 <-
 function(add=F,cols="black",size=1){
-  linesout = ShiraziBoersma:::au2_lines_out
+  lines_out = ShiraziBoersma:::au2_lines_out
   x = ShiraziBoersma:::au2_x
   y = ShiraziBoersma:::au2_y
   
