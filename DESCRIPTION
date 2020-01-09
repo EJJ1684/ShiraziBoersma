@@ -3,8 +3,13 @@ Type: Package
 Title: Shirazi and Boersma texture triangle
 Version: 1.0
 Date: 2020-01-08
-Author: Edward Jones
-Maintainer: Joe Developer <Joe.Developer@some.domain.net>
-Description: Shirazi and Boersma texture triangle and geometric mean diameter and standard deviation calculation.
+Authors@R: as.person(
+    "Edward Jones <edward.jones@sydney.edu.au> [aut,cre]"
+    )
+Description: Calculation of geometric mean diameter and standard deviation 
+    based on particle size analaysis data and plot Shirazi and Boersma texture 
+    triangle.
 License: What license is it under?
-Imports: soiltexture, stringr
+Imports:
+    soiltexture,
+    stringr
