@@ -2,7 +2,7 @@ shb_calc <-
 function(psa,lim,plt,seg_dat){
 
   ##limit (mm) of clay, silt and sand fraction from USDA texture limits
-  s0=0.00001 ##clay lower size limit sometimes given as 0.00001, other times 0.00005. can dramatically chage results
+  s0=0.00001 ##clay lower size limit sometimes given as 0.00001, other times 0.00005. can dramatically change results
   sizes=c(s0,lim)
 
   ###probabilties
