@@ -13,6 +13,6 @@ sbTT_usda()
 sbTT_au2(cols="red")  
 sbTT_iuss(add=T,cols="blue")  
 
-res=shb_calc(psa = c(20,30,50), sys = "usda", plt_par = T, dat_par = F)  
+res=sbh_calc(psa = c(20,30,50), sys = "usda", plt_par = T, dat_par = F)  
 sbTT_usda(add=F,cols="black",size=1)  
 points(log10(res[1]),res[2], pch=16, col="red")  
