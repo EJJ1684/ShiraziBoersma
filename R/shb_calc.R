@@ -1,6 +1,6 @@
 shb_calc <-
 function(psa,sys,plt,seg_dat){
-  if(sys%in%c("au2","iuss"){
+  if(sys%in%c("au2","iuss")){
    s0 = 0.00002
    lim = c(0.002,0.02,2)
   }else{
