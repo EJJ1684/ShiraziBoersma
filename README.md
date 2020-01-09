@@ -8,7 +8,7 @@ Shirazi MA, Boersma L, Hart JW (1988) A unifying quantitative analysis of soil t
 Stockmann U, Jones EJ, Odeh IOA, McBratney AB (2018) Pedometric Treatment of Soil Attributes. In: McBratney A, Minasny B, Stockmann U (eds) Pedometrics. Progress in Soil Science. Springer, Cham.  
                          
 ## Demo
-devtools::install_github("EJJ1684/ShiraziBoersma")  
+devtools::install_github("edwardjjones/ShiraziBoersma")  
 
 require(ShiraziBoersma)  
 
