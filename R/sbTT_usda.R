@@ -1,6 +1,8 @@
 sbTT_usda <-
 function(add=F,cols="black",size=1){
-  data("usda")
+  lines_out = ShiraziBoersma:::usda_lines_out
+  x = ShiraziBoersma:::usda_x
+  y = ShiraziBoersma:::usda_y
     
   if(!add){plot(NA,cex=0.0, xlim=c(-4,0), ylim=c(1,13),ylab="Geometric standard deviation", xlab="Geometric mean diameter (mm)", xaxt="n",xaxs="i")
     axis(1,at=c(-4,-3,-2,-1,0), labels=c("0.0001","0.001","0.01","0.1","1.0"),lwd.ticks=2)
